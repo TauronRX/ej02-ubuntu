@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(50, 50, 50);
+    color: #fff;
+}
+
+#atras-iniciosesion {
+    position: absolute;
+    left: 2%;
+    top: 0%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-iniciosesion {
+    width: 100%;
+    height: 60px;
+    background: rgb(30, 30, 30);
+}
+
+#formulario-iniciosesion {
+    position: relative;
+    left: 10%;
+}
+
+.boton-iniciosesion {
+    background: red;
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    left: 77%;
+    top: 45%;
+    text-align: center;
+    border-radius: 19px;
+    word-wrap: break-word;
+}
+
+#enlace-boton-iniciosesion {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    top: 25%;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+    #formulario {
+        width: 500px;
+        height: 550px;
+    }
+
+    .boton-iniciosesion {
+        left: 60%;
+    }
+
+    #caja-formulario {
+        width: 600px;
+    }
+}
+
+#titulo-verdad-informatica {
+    font-size: 60px;
+    text-align: center;
+}
+
+.contenido-verdad {
+    text-align: center;
+}
+
+#enlace-verdad-writter {
+    text-decoration: none;
+    color: yellow;
+}
+
+#texto-verdad-writter {
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+#titulo-writter-html {
+    font-size: 80px;
+}
+
+.intorducción-writter {
+    display: flex;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.ej01-writter {
+    text-align: center;
+    margin-top: 4%;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.ej02-writter {
+    text-align: center;
+    margin-top: 3%;
+}

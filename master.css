@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(50, 50, 50);
+    color: #fff;
+}
+
+.menu-index {
+    width: 100%;
+    height: 70px;
+    background: rgb(40, 40, 40);
+    display: flex;
+}
+
+#logo-index-youtube {
+    width: 60px;
+    border-radius: 100px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#imagen-libros-index {
+    width: 400px;
+    position: relative;
+    left: 35%;
+}
+
+#titulo-index {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+
+#iniciosesion-enlace-index {
+    position: relative;
+    left: 83%;
+    top: 8%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+    #iniciosesion-enlace-index {
+        left: 79%;
+    }
+
+    #imagen-libros-index {
+        left: 30%;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 775px) {
+    #iniciosesion-enlace-index {
+        left: 73%;
+    }
+
+    #imagen-libros-index {
+        left: 25%;
+    }
+}
+
+.preguntas-index {
+    text-align: center;
+}
